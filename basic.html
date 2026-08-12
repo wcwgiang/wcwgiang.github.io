@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Wayne C.W. Giang, Ph.D. · UX Researcher &amp; Human Factors</title>
+  <meta name="description" content="Wayne C.W. Giang, Ph.D. UX researcher and human factors specialist with 15+ years studying how people understand, learn, and safely use emerging technologies in regulated, high-stakes environments." />
+  <meta name="author" content="Wayne C.W. Giang" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Wayne C.W. Giang, Ph.D." />
+  <meta property="og:description" content="UX Researcher & Human Factors specialist. Mixed-methods research, usability evaluation, and human-centered design in high-stakes domains." />
+  <meta property="og:url" content="https://wcwgiang.github.io/" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>
+    (function () {
+      const stored = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+    })();
+  </script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+    <span class="theme-toggle__sun">☀</span><span class="theme-toggle__moon">☾</span>
+  </button>
+
+  <main class="page">
+    <!-- HEADER -->
+    <header class="masthead">
+      <div class="masthead__text">
+        <h1 class="name">Wayne C.W. Giang, <span class="name__suffix">Ph.D.</span></h1>
+        <p class="affiliation">
+          UX Researcher &amp; Human Factors Specialist<br />
+          <span class="affiliation__loc">Toronto, Canada · open to UX research &amp; human factors roles</span>
+        </p>
+        <p class="contact-line">
+          <a href="assets/resume.pdf">Résumé (PDF)</a> ·
+          <a href="assets/cv.pdf">Full CV (PDF)</a> ·
+          <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/wayne-giang-1979775/">LinkedIn</a> ·
+          <a target="_blank" rel="noopener" href="https://scholar.google.ca/citations?user=eEY_yN4AAAAJ&hl=en">Scholar</a> ·
+          <a target="_blank" rel="noopener" href="https://github.com/wcwgiang">GitHub</a>
+        </p>
+      </div>
+      <img class="masthead__photo" src="assets/headshot.jpg" alt="Wayne C.W. Giang"
+           onerror="this.style.display='none'" />
+    </header>
+
+    <!-- INTRO -->
+    <section class="block">
+      <p>
+        I'm a UX researcher and human factors specialist with <strong>15+ years</strong>
+        studying how people understand, learn, and safely use emerging technologies in
+        regulated, high-stakes environments, spanning consumer finance, healthcare, and
+        transportation. My work pairs rigorous mixed-methods research and advanced
+        statistical analysis with usability evaluation and human-centered design.
+      </p>
+      <p>
+        I specialize in developing inclusive, accessible research approaches that support
+        diverse user populations and translating evidence into practical guidance for
+        design, policy, and consumer education. After leading interdisciplinary research
+        as a professor, I'm now focused on applying that depth to product and UX research
+        in industry.
+      </p>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="block">
+      <h2>Expertise</h2>
+      <div class="expertise">
+        <div class="expertise__col">
+          <h3>Research &amp; Design</h3>
+          <ul>
+            <li>Usability &amp; human-centered design</li>
+            <li>Ethnographic &amp; observational methods</li>
+            <li>Knowledge elicitation (contextual inquiry, critical decision method)</li>
+            <li>Task analysis (HTA, Cognitive Work Analysis)</li>
+            <li>Participatory &amp; inclusive design</li>
+          </ul>
+        </div>
+        <div class="expertise__col">
+          <h3>Methods &amp; Analysis</h3>
+          <ul>
+            <li>Mixed-methods study design</li>
+            <li>Experiment design &amp; statistical analysis</li>
+            <li>Emergent themes / qualitative analysis</li>
+            <li>Eye-tracking, remote telemetry, simulation</li>
+            <li>Survey &amp; think-aloud studies</li>
+          </ul>
+        </div>
+        <div class="expertise__col">
+          <h3>Tools</h3>
+          <ul>
+            <li>R, SPSS, SAS, Python</li>
+            <li>Figma, Qualtrics, REDCap</li>
+            <li>Tobii Pro Lab, Ergoneers D-Lab</li>
+            <li>PsychoPy, OBS</li>
+            <li>Science communication &amp; project management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="block">
+      <h2>Experience</h2>
+      <ul class="entries">
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Senior UX Researcher, Research Science</span>
+            <span class="entry__where">Procom (TD contract)</span>
+            <span class="entry__detail">
+              Mixed-methods UX research on enterprise, colleague-facing software, using
+              interviews, field studies, expert knowledge elicitation, surveys, and
+              knowledge harvests. Synthesized findings into actionable design implications
+              and fed research-based inputs into design-thinking sessions. Integrated AI
+              tools into research workflows for data collection, presentation, and analysis.
+            </span>
+          </div>
+          <span class="entry__date">Mar–Aug 2026</span>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Assistant Professor, Industrial &amp; Systems Engineering</span>
+            <span class="entry__where">University of Florida · Herbert Wertheim College of Engineering</span>
+            <span class="entry__detail">
+              Led an interdisciplinary human factors research program across transportation,
+              healthcare, and consumer decision-making, directing simulator, eye-tracking,
+              and on-road studies and translating findings into guidance for design, policy,
+              and consumer education. (Affiliated Faculty, Sept 2025–present.)
+            </span>
+            <ul class="hl">
+              <li>Group Lead, Human Factors Group, UF Transportation Institute (2021–2025)</li>
+              <li>Co-investigator on ~$1M in competitive research funding (U.S. DOT, NIDILRR, NIST)</li>
+              <li>Developed two human-factors courses; taught cohorts up to 114 students</li>
+              <li>Graduated 3 PhD students; mentored 20+ undergraduate researchers</li>
+              <li>Associate Chair, ACM Automotive UI conference (2019–2023)</li>
+            </ul>
+          </div>
+          <span class="entry__date">2018–Aug 2025</span>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Sessional Instructor, Mechanical &amp; Industrial Engineering</span>
+            <span class="entry__where">University of Toronto</span>
+          </div>
+          <span class="entry__date">Fall 2025 · Fall 2026</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SELECTED RESEARCH / WORK -->
+    <section class="block">
+      <h2>Selected Research</h2>
+      <ul class="entries">
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Consumer education &amp; training for vehicle automation and AI</span>
+            <span class="entry__detail">
+              Designed and evaluated training approaches to help consumers understand and
+              use in-vehicle automation, comparing how scaffolding strategies shaped learning
+              and behavior across older, younger, and student drivers. Ran driving-simulator
+              and eye-tracking studies; partnered with industry, academic, and policy
+              stakeholders to turn results into consumer-education guidance.
+            </span>
+          </div>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Health-insurance enrollment decision-making</span>
+            <span class="entry__detail">
+              Mixed-methods research on consumer comprehension during employer-provided
+              health-insurance enrollment, testing how decision-aid type, information
+              structure, and framing shaped decisions, with actionable implications for
+              improving decision aids in regulated consumer contexts.
+            </span>
+          </div>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Decision support &amp; uncertainty visualization for medical dispatch</span>
+            <span class="entry__detail">
+              Contextual research in a medical dispatch control center paired with controlled
+              experiments and scalable online studies. Identified systematic judgment and
+              misinterpretation patterns around uncertainty; outcomes informed technology
+              transfer to a computer-aided dispatch vendor.
+            </span>
+          </div>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Inclusive design for medically vulnerable drivers</span>
+            <span class="entry__detail">
+              Participatory design with older adults and individuals with mild cognitive
+              impairment for highly automated vehicles, plus a large on-road clinical study
+              of driver-assistance systems for people with Parkinson's disease, analyzing
+              multi-modal datasets (video-coded behavior, telemetry, clinical assessments).
+            </span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- DOCTORAL MENTORSHIP -->
+    <section class="block">
+      <h2>Doctoral Mentorship</h2>
+      <ul class="entries">
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Mahtab Eskandar</span>
+            <span class="entry__detail">Lecturer, Warrington College of Business, University of Florida</span>
+          </div>
+          <span class="entry__date">2024–present</span>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Haolan Zheng</span>
+            <span class="entry__detail">Human factors researcher, driver behavior &amp; distraction research</span>
+          </div>
+          <span class="entry__date">2025</span>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Albraa Rajkhan</span>
+            <span class="entry__detail">Incoming Assistant Professor, Industrial Engineering, King Abdulaziz University</span>
+          </div>
+          <span class="entry__date">Fall 2026</span>
+        </li>
+      </ul>
+      <p class="mentees__note">
+        Also supervised 20+ undergraduate researchers and a dozen-plus industry- and
+        health-partnered senior design capstone teams, including consumer decision-support
+        tools for the Florida Department of Management Services and clinical workflow
+        improvements at UF Health Shands.
+      </p>
+    </section>
+
+    <!-- SELECTED PUBLICATIONS -->
+    <section class="block">
+      <h2>Selected Publications</h2>
+      <p class="note">Supervised student authors in bold. Full list on
+        <a target="_blank" rel="noopener" href="https://scholar.google.ca/citations?user=eEY_yN4AAAAJ&hl=en">Google Scholar</a>.</p>
+      <ol class="pubs">
+        <li class="pub">
+          <a class="pub__title" target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S136984782500230X">Automated driving training: a scoping review examining the use of instructional design and learning principles in current training research</a>
+          <span class="pub__authors"><strong>Rajkhan, A.</strong>, Giang, W.C.W.</span>
+          <span class="pub__venue">Transportation Research Part F: Traffic Psychology and Behavior, 2025</span>
+        </li>
+        <li class="pub">
+          <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.3389/fneur.2023.1225751">Does in-vehicle automation help individuals with Parkinson's disease? A preliminary analysis</a>
+          <span class="pub__authors">Giang, W.C.W., <strong>Zheng, H.</strong>, Gibson, B., Patel, B., Ramirez-Zamora, A., et al.</span>
+          <span class="pub__venue">Frontiers in Neurology: Neurorehabilitation, 2023</span>
+        </li>
+        <li class="pub">
+          <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.2196/27628">User Interactions with Health Insurance Decision Aids: A User Study with Retrospective Think-Aloud</a>
+          <span class="pub__authors">Giang, W.C.W., <strong>Bland, E.</strong>, <strong>Chen, J.</strong>, Colon Morales, C., Alvarado, M.</span>
+          <span class="pub__venue">Journal of Medical Internet Research (Human Factors), 2021</span>
+        </li>
+        <li class="pub">
+          <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.3389/ffutr.2022.854553">Designing a Reminders System in Highly Automated Vehicles' Interfaces for Individuals with Mild Cognitive Impairments</a>
+          <span class="pub__authors"><strong>Eskandar, M.</strong>, Giang, W.C.W., Motamedi, S., Devos, H., Koon, L., et al.</span>
+          <span class="pub__venue">Frontiers in Future Transportation, 2022</span>
+        </li>
+        <li class="pub">
+          <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.4018/IJMHCI.2017040103">Smartwatches vs. Smartphones: Notification Engagement while Driving</a>
+          <span class="pub__authors">Giang, W.C.W., Chen, H-Y.W., Donmez, B.</span>
+          <span class="pub__venue">International Journal of Mobile Human-Computer Interaction, 2017</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="block">
+      <h2>Education</h2>
+      <ul class="entries">
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">Ph.D., Industrial Engineering</span>
+            <span class="entry__where">University of Toronto</span>
+            <span class="entry__detail">Dissertation: Supporting Medical Dispatchers' Understanding of Uncertainty in Short-term Dispatch Decisions.</span>
+          </div>
+          <span class="entry__date">2018</span>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">M.A.Sc., Systems Design Engineering</span>
+            <span class="entry__where">University of Waterloo</span>
+          </div>
+          <span class="entry__date">2012</span>
+        </li>
+        <li class="entry">
+          <div class="entry__body">
+            <span class="entry__title">B.A.Sc. (Honours), Systems Design Engineering (Cognitive Science Option)</span>
+            <span class="entry__where">University of Waterloo</span>
+          </div>
+          <span class="entry__date">2009</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Wayne C.W. Giang, Ph.D. · UX Researcher &amp; Human Factors</title>
+  <meta name="description" content="Wayne C.W. Giang, Ph.D. UX researcher and human factors specialist. Mixed-methods research, usability evaluation, and human-centered design in high-stakes domains." />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="fancy.css" />
+  <script>
+    (function () {
+      const stored = localStorage.getItem('theme-fancy');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">
+    <span class="theme-toggle__sun">☀</span><span class="theme-toggle__moon">☾</span>
+  </button>
+
+  <div class="layout">
+    <!-- STICKY SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar__inner">
+        <div>
+          <h1 class="name">Wayne C.W. Giang</h1>
+          <p class="title">UX Researcher &amp; Human Factors, Ph.D.</p>
+          <p class="tagline">
+            I study how people understand, learn, and safely use emerging
+            technology in high-stakes environments.
+          </p>
+
+          <nav class="nav" aria-label="Sections">
+            <ul>
+              <li><a href="#about" class="nav__link"><span class="nav__line"></span>About</a></li>
+              <li><a href="#experience" class="nav__link"><span class="nav__line"></span>Experience</a></li>
+              <li><a href="#research" class="nav__link"><span class="nav__line"></span>Research</a></li>
+              <li><a href="#mentorship" class="nav__link"><span class="nav__line"></span>Mentorship</a></li>
+              <li><a href="#publications" class="nav__link"><span class="nav__line"></span>Publications</a></li>
+              <li><a href="#education" class="nav__link"><span class="nav__line"></span>Education</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <ul class="socials">
+          <li><a href="assets/resume.pdf">Résumé</a></li>
+          <li><a href="assets/cv.pdf">CV</a></li>
+          <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/wayne-giang-1979775/">LinkedIn</a></li>
+          <li><a target="_blank" rel="noopener" href="https://github.com/wcwgiang">GitHub</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- SCROLLING CONTENT -->
+    <main class="content">
+      <section id="about" class="section reveal" tabindex="-1">
+        <p>
+          I'm a UX researcher and human factors specialist with <strong>15+ years</strong>
+          studying how people understand, learn, and safely use emerging technologies in
+          regulated, high-stakes environments, spanning <em>consumer finance, healthcare,
+          and transportation</em>. My work pairs rigorous mixed-methods research with
+          usability evaluation and human-centered design.
+        </p>
+        <p>
+          I specialize in inclusive, accessible research approaches that support diverse user
+          populations, and in translating evidence into practical guidance for design, policy,
+          and consumer education. After leading interdisciplinary research as a professor, I'm
+          now applying that depth to product and UX research in industry.
+        </p>
+        <div class="pills">
+          <span>Mixed-methods research</span><span>Usability evaluation</span>
+          <span>Statistical analysis (R · Python)</span><span>Eye-tracking</span>
+          <span>Participatory design</span><span>Figma · Qualtrics · REDCap</span>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <h2 class="section__label">Experience</h2>
+        <ol class="cards" data-accordion>
+          <li class="card is-open">
+            <h3 class="card__h">
+              <button class="card__head" aria-expanded="true">
+                <span class="card__date">Mar–Aug 2026</span>
+                <span class="card__heading">
+                  <span class="card__title">Senior UX Researcher, Research Science</span>
+                  <span class="card__org">Procom · TD contract</span>
+                </span>
+                <span class="card__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="card__panel">
+              <div class="card__panel-inner">
+                <p>
+                  Mixed-methods UX research on enterprise, colleague-facing software, using
+                  interviews, field studies, expert knowledge elicitation, surveys, and
+                  knowledge harvests. Synthesized findings into actionable design implications
+                  and fed evidence-based inputs into design-thinking sessions; integrated AI
+                  tools into research workflows for data collection, presentation, and analysis.
+                </p>
+                <ul class="tags">
+                  <li>UX Research</li><li>Enterprise Software</li><li>Qual + Quant</li><li>Knowledge Elicitation</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <h3 class="card__h">
+              <button class="card__head" aria-expanded="false">
+                <span class="card__date">2018–Aug 2025</span>
+                <span class="card__heading">
+                  <span class="card__title">Assistant Professor, Industrial &amp; Systems Engineering</span>
+                  <span class="card__org">University of Florida · Herbert Wertheim College of Engineering</span>
+                </span>
+                <span class="card__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="card__panel">
+              <div class="card__panel-inner">
+                <p>
+                  Led an interdisciplinary human factors research program across transportation,
+                  healthcare, and consumer decision-making, directing driving-simulator,
+                  eye-tracking, and on-road studies and translating findings into guidance for
+                  design, policy, and consumer education. (Affiliated Faculty, Sept 2025–present.)
+                </p>
+                <ul class="hl">
+                  <li>Group Lead, Human Factors Group, UF Transportation Institute (2021–2025)</li>
+                  <li>Co-investigator on ~$1M in competitive research funding (U.S. DOT, NIDILRR, NIST)</li>
+                  <li>Developed two human-factors courses; taught cohorts up to 114 students</li>
+                  <li>Graduated 3 PhD students; mentored 20+ undergraduate researchers</li>
+                  <li>Associate Chair, ACM Automotive UI conference (2019–2023)</li>
+                </ul>
+                <ul class="tags">
+                  <li>Research Leadership</li><li>Study Design</li><li>Eye-tracking</li><li>Grant Funding</li><li>Mentorship</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <h3 class="card__h">
+              <button class="card__head" aria-expanded="false">
+                <span class="card__date">Fall 2025 · Fall 2026</span>
+                <span class="card__heading">
+                  <span class="card__title">Sessional Instructor, Mechanical &amp; Industrial Engineering</span>
+                  <span class="card__org">University of Toronto</span>
+                </span>
+                <span class="card__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="card__panel">
+              <div class="card__panel-inner">
+                <p>Taught within the Mechanical &amp; Industrial Engineering department.</p>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="research" class="section reveal">
+        <h2 class="section__label">Selected Research</h2>
+        <p class="hint">Choose a theme to show related publications below.</p>
+        <div class="grid" role="group" aria-label="Research themes">
+          <article class="tile" data-theme="automation">
+            <h3>Vehicle automation training &amp; education</h3>
+            <p>
+              Designing and evaluating training that helps consumers understand in-vehicle
+              automation, comparing scaffolding strategies across older, younger, and student
+              drivers via simulator and eye-tracking studies.
+            </p>
+            <div class="tile__actions">
+              <button class="tile__filter" data-theme="automation" aria-pressed="false">Show publications</button>
+            </div>
+          </article>
+          <article class="tile" data-theme="health">
+            <h3>Health-insurance decision-making</h3>
+            <p>
+              Mixed-methods research on consumer comprehension during enrollment: how
+              decision-aid type, information structure, and framing shape choices in regulated
+              consumer contexts.
+            </p>
+            <div class="tile__actions">
+              <button class="tile__filter" data-theme="health" aria-pressed="false">Show publications</button>
+            </div>
+          </article>
+          <article class="tile" data-theme="dispatch">
+            <h3>Uncertainty &amp; decision support</h3>
+            <p>
+              Contextual research plus controlled and online experiments on how people
+              interpret uncertainty in time-critical decision support, from medical dispatch
+              to uncertainty visualization. Outcomes informed technology transfer of a
+              decision-support tool to a computer-aided dispatch vendor.
+            </p>
+            <div class="tile__actions">
+              <button class="tile__filter" data-theme="dispatch" aria-pressed="false">Show publications</button>
+            </div>
+          </article>
+          <article class="tile" data-theme="inclusive">
+            <h3>Inclusive design for vulnerable drivers</h3>
+            <p>
+              Participatory design with older adults and people with mild cognitive impairment,
+              and on-road clinical studies of driver-assistance for people with Parkinson's
+              disease.
+            </p>
+            <div class="tile__actions">
+              <button class="tile__filter" data-theme="inclusive" aria-pressed="false">Show publications</button>
+              <a class="tile__link" target="_blank" rel="noopener" href="https://www.ise.ufl.edu/blog/2021/04/uf-ise-faculty-design-automated-driving-system-for-people-with-cognitive-disabilities/">DOT Inclusive Design Challenge ↗</a>
+              <a class="tile__link" target="_blank" rel="noopener" href="https://www.openicpsr.org/openicpsr/project/198072/version/V1/view">Open dataset (ICPSR) ↗</a>
+            </div>
+          </article>
+          <article class="tile" data-theme="distraction">
+            <h3>Distraction, attention &amp; wearables</h3>
+            <p>
+              How smartphones and wearables reshape attention and safety: distracted walking,
+              notification engagement while driving, and risk perception across environments.
+            </p>
+            <div class="tile__actions">
+              <button class="tile__filter" data-theme="distraction" aria-pressed="false">Show publications</button>
+              <a class="tile__link" target="_blank" rel="noopener" href="https://www.nytimes.com/2024/01/23/well/smartphone-walking-posture-mood.html">Featured in The New York Times ↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="mentorship" class="section reveal">
+        <h2 class="section__label">Doctoral Mentorship</h2>
+        <p class="hint">PhD students I advised to completion, and where they are now.</p>
+        <ul class="mentees">
+          <li>
+            <span class="mentee__name">Mahtab Eskandar</span>
+            <span class="mentee__now">Lecturer, Warrington College of Business, University of Florida (2024–present)</span>
+          </li>
+          <li>
+            <span class="mentee__name">Haolan Zheng</span>
+            <span class="mentee__now">Human factors researcher, driver behavior &amp; distraction research (PhD 2025)</span>
+          </li>
+          <li>
+            <span class="mentee__name">Albraa Rajkhan</span>
+            <span class="mentee__now">Incoming Assistant Professor, Industrial Engineering, King Abdulaziz University (Fall 2026)</span>
+          </li>
+        </ul>
+        <p class="mentees__note">
+          Also supervised 20+ undergraduate researchers and a dozen-plus industry- and
+          health-partnered senior design capstone teams, including consumer decision-support
+          tools for the Florida Department of Management Services and clinical workflow
+          improvements at UF Health Shands.
+        </p>
+      </section>
+
+      <section id="publications" class="section reveal" tabindex="-1">
+        <div class="pubs-head">
+          <h2 class="section__label">Selected Publications</h2>
+          <button id="pub-reset" class="pub-reset" hidden>Show all ✕</button>
+        </div>
+        <p class="note" id="pub-note" role="status" aria-live="polite">Supervised student authors in bold. Full list on
+          <a target="_blank" rel="noopener" href="https://scholar.google.ca/citations?user=eEY_yN4AAAAJ&hl=en">Google Scholar</a>.</p>
+        <ol class="pubs">
+          <li class="pub" data-theme="automation">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.trf.2023.01.023">Pilot study: Effect of roles and responsibility training on drivers' use of adaptive cruise control between younger and older adults</a>
+            <span class="pub__meta"><strong>Zheng, H.</strong>, Mason, J.R., Classen, S., Giang, W.C.W. · <em>Transportation Research Part F</em>, 2023</span>
+          </li>
+          <li class="pub" data-theme="automation">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S1369847825000427">Improving driving automation training through scaffolding of roles and responsibilities</a>
+            <span class="pub__meta"><strong>Zheng, H.</strong>, Mason, J.R., Classen, S., Giang, W.C.W. · <em>Transportation Research Part F</em>, 2025</span>
+          </li>
+          <li class="pub" data-theme="automation">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S136984782500230X">Automated driving training: a scoping review of instructional design and learning principles in current training research</a>
+            <span class="pub__meta"><strong>Rajkhan, A.</strong>, Giang, W.C.W. · <em>Transportation Research Part F</em>, 2025</span>
+          </li>
+          <li class="pub" data-theme="health">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.2196/27477">Informed decision-making for health insurance enrollment: Survey study</a>
+            <span class="pub__meta">Colón-Morales, C., Giang, W.C.W., Alvarado, M. · <em>JMIR Formative Research</em>, 2021</span>
+          </li>
+          <li class="pub" data-theme="health">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.2196/27628">User interactions with health insurance decision aids: A user study with retrospective think-aloud interviews</a>
+            <span class="pub__meta">Giang, W.C.W., <strong>Bland, E.</strong>, <strong>Chen, J.</strong>, Colón-Morales, C., Alvarado, M. · <em>JMIR Human Factors</em>, 2021</span>
+          </li>
+          <li class="pub" data-theme="inclusive">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.3389/ffutr.2022.854553">Designing a Reminders System in Highly Automated Vehicles' Interfaces for Individuals with Mild Cognitive Impairment</a>
+            <span class="pub__meta"><strong>Eskandar, M.</strong>, Giang, W.C.W., Motamedi, S., Devos, H., Koon, L., et al. · <em>Frontiers in Future Transportation</em>, 2022</span>
+          </li>
+          <li class="pub" data-theme="inclusive">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.1177/15394492241271115">A Randomized Controlled Trial on Automated Vehicle Technologies for Drivers with Parkinson's Disease</a>
+            <span class="pub__meta">Classen, S., Giang, W.C.W., <strong>Rajkhan, A.</strong>, <strong>Zheng, H.</strong>, et al. · <em>OTJR: Occupational Therapy Journal of Research</em>, 2025</span>
+          </li>
+          <li class="pub" data-theme="distraction">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.aap.2021.106405">Risk perception and distraction engagement with smart devices in different types of walking environments</a>
+            <span class="pub__meta"><strong>Zheng, H.</strong>, Giang, W.C.W. · <em>Accident Analysis &amp; Prevention</em>, 2021</span>
+          </li>
+          <li class="pub" data-theme="distraction">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.4018/IJMHCI.2017040103">Smartwatches vs. Smartphones: Notification Engagement while Driving</a>
+            <span class="pub__meta">Giang, W.C.W., Chen, H-Y.W., Donmez, B. · <em>International Journal of Mobile HCI</em>, 2017</span>
+          </li>
+          <li class="pub" data-theme="dispatch">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.1177/21695067231192539">The Privacy Attitudes Questionnaire (PAQ) Turned 20: What's Next for a Generalized Measure of Privacy Attitudes?</a>
+            <span class="pub__meta">Giang, W.C.W., Iglar, A., Chignell, M., Samavi, R., Nathan, K. · <em>HFES Annual Meeting</em>, 2023</span>
+          </li>
+          <li class="pub" data-theme="dispatch">
+            <a class="pub__title" target="_blank" rel="noopener" href="https://doi.org/10.1177/1071181321651281">A preliminary classification of different tasks that make use of uncertainty visualizations</a>
+            <span class="pub__meta"><strong>Eskandar, M.</strong>, Giang, W.C.W. · <em>HFES Annual Meeting</em>, 2021</span>
+          </li>
+        </ol>
+      </section>
+
+      <section id="education" class="section reveal">
+        <h2 class="section__label">Education</h2>
+        <ol class="cards" data-accordion>
+          <li class="card">
+            <h3 class="card__h">
+              <button class="card__head" aria-expanded="false">
+                <span class="card__date">2018</span>
+                <span class="card__heading">
+                  <span class="card__title">Ph.D., Industrial Engineering</span>
+                  <span class="card__org">University of Toronto</span>
+                </span>
+                <span class="card__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="card__panel">
+              <div class="card__panel-inner">
+                <p>Dissertation: <em>Supporting Medical Dispatchers' Understanding of Uncertainty in Short-term Dispatch Decisions.</em> Advisors: Birsen Donmez, Russell D. MacDonald.</p>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <h3 class="card__h">
+              <button class="card__head" aria-expanded="false">
+                <span class="card__date">2012</span>
+                <span class="card__heading">
+                  <span class="card__title">M.A.Sc., Systems Design Engineering</span>
+                  <span class="card__org">University of Waterloo</span>
+                </span>
+                <span class="card__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="card__panel">
+              <div class="card__panel-inner">
+                <p>Thesis: <em>Applications of Crossmodal Relationships in Interfaces for Complex Systems: A Study of Temporal Synchrony.</em></p>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <h3 class="card__h">
+              <button class="card__head" aria-expanded="false">
+                <span class="card__date">2009</span>
+                <span class="card__heading">
+                  <span class="card__title">B.A.Sc. (Honours), Systems Design Engineering</span>
+                  <span class="card__org">University of Waterloo · Cognitive Science Option</span>
+                </span>
+                <span class="card__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="card__panel">
+              <div class="card__panel-inner">
+                <p>Honours Distinction.</p>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </div>
+
+  <script src="fancy.js"></script>
+</body>
+</html>
